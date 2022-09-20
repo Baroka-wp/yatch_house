@@ -23,7 +23,13 @@ default: &default
 
 development:
   <<: *default
+  adapter: postgresql
+  encoding: unicode
   database: yatch_house_development
+  host: localhost
+  pool: 5
+  username: postgres
+  password: MyPassword
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -57,7 +63,13 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  adapter: postgresql
+  encoding: unicode
   database: yatch_house_test
+  host: localhost
+  pool: 5
+  username: postgres
+  password: MyPassword
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -81,6 +93,11 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
+  encoding: unicode
   database: yatch_house_production
-  username: yatch_house
+  host: localhost
+  pool: 5
+  username: postgres
   password: <%= ENV["YATCH_HOUSE_DATABASE_PASSWORD"] %>
+  role: MyRole
