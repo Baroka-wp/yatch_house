@@ -19,8 +19,7 @@ class Api::V1::HousesController < ApplicationController
     end
     
     def destroy
-        # @recipe_food = RecipeFood.find(params[:id])
-        # @recipe_food.destroy
-        # redirect_to recipe_path(@recipe_food.recipe_id)
+        @house=House.find(:params)
+        @house.destroy
     end
 end
