@@ -9,7 +9,7 @@ gem 'rails', '~> 7.0.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
-gem "cancan"
+gem 'cancan'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
@@ -51,4 +51,4 @@ group :development do
   # gem "spring"
 end
 
-gem "active_model_serializers", "~> 0.10.13"
+gem 'active_model_serializers', '~> 0.10.13'
