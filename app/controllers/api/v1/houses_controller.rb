@@ -1,10 +1,12 @@
 class Api::V1::HousesController < ApplicationController
     def index
         @houses=House.all
+        render json: @houses
     end
 
     def show
         @house=House.find(:params)
+        render json: @house
     end
 
     def new
@@ -12,13 +14,8 @@ class Api::V1::HousesController < ApplicationController
     end
     
     def create
-    #     @recipe = Recipe.find(params[:recipe_id])
-    #     @recipe_food = @recipe.recipe_foods.new(params[:recipe_food].permit(:food_id, :quantity))
-    # if @recipe_food.save
-    #       redirect_to recipe_path(@recipe_food.recipe_id)
-    # else
-    #       render 'new'
-    # end
+        @house=House.new(house_params)
+        @house.save
     end
     
     def destroy
