@@ -1,6 +1,16 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   respond_to :json
 
+  def create
+    super #Nothing special here.
+  end
+
+  protected
+
+  def sign_up(resource_name, resource)
+    true
+  end
+
   private
 
   def respond_with(resource, _opts = {})
