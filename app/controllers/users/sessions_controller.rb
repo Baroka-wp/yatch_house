@@ -3,8 +3,8 @@ class Users::SessionsController < Devise::SessionsController
 
   private
 
-  def respond_with(_resource, _opts = {})
-    render json: { message: 'Logged.' }, status: :ok
+  def respond_with(resource, _opts = {})
+    render json: { data: resource, message: 'Logged.' }, status: :ok
   end
 
   def respond_to_on_destroy
