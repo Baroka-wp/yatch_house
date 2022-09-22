@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Reservation, type: :model do
   describe 'Reservation model' do
-    user1 = User.new(name: 'Max', telephone: 41_234_123, email: 'Max@example.com', password_digest: '123456')
+    user1 = User.new(name: 'Max', telephone: 41_234_123, email: 'Max@example.com', password: '123456')
     house1 = House.new(name: 'Mansion1', location: 'Hollywood', description: 'The description of the house',
                        price: 8_000_000, image: 'https://unsplash.com/photos/F_-0BxGuVvo')
     subject do
