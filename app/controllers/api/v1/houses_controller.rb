@@ -5,7 +5,7 @@ class Api::V1::HousesController < ApplicationController
   end
 
   def show
-    @house = House.find(:params)
+    @house = House.find(params[:id])
     render json: @house
   end
 
@@ -17,7 +17,11 @@ class Api::V1::HousesController < ApplicationController
   end
 
   def destroy
-    @house = House.find(:params)
+    @house = House.find(params[:id])
     @house.destroy
+  end
+
+  def house_params
+    params.require(:house).permit(:name, :location, :price, :description)
   end
 end
