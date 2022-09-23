@@ -1,5 +1,5 @@
 class House < ApplicationRecord
-  mount_uploader :image, ImageUploader
+  # mount_uploader :image, ImageUploader
   has_many :reservations
 
   validates :name, presence: true
