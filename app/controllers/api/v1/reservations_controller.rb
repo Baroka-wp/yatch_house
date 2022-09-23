@@ -12,7 +12,7 @@ class Api::V1::ReservationsController < ApplicationController
   def new; end
 
   def create
-    @reservation = current_user.reservations.new(reservation_params)
+    @reservation = Reservation.new(reservation_params)
     @reservation.save
   end
 
