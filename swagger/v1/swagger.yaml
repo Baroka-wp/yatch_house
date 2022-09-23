@@ -12,9 +12,32 @@ paths:
           description: successful
     post:
       summary: create house
+      parameters: []
       responses:
         '200':
           description: successful
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                location:
+                  type: string
+                price:
+                  type: integer
+                description:
+                  type: string
+                image:
+                  type: string
+              required:
+              - name
+              - location
+              - price
+              - description
+              - image
   "/api/v1/houses/new":
     get:
       summary: new house
@@ -57,9 +80,32 @@ paths:
           description: successful
     post:
       summary: create reservation
+      parameters: []
       responses:
         '200':
           description: successful
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                start_date:
+                  type: string
+                end_date:
+                  type: string
+                status:
+                  type: string
+                house_id:
+                  type: integer
+                user_id:
+                  type: integer
+              required:
+              - start_date
+              - end_date
+              - status
+              - house_id
+              - user_id
   "/api/v1/reservations/new":
     get:
       summary: new reservation
