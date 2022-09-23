@@ -60,4 +60,7 @@ gem 'devise-jwt'
 gem 'dotenv-rails', groups: %i[development test]
 
 gem 'carrierwave'
+
 gem 'cloudinary'
+
+gem 'rswag'
