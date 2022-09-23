@@ -20,6 +20,18 @@ RSpec.describe 'api/v1/reservations', type: :request do
 
     post('create reservation') do
       response(200, 'successful') do
+        consumes 'application/json'
+        parameter name: :reservation, in: :body, schema: {
+          type: :object,
+          properties: {
+            start_date: { type: :string },
+            end_date: { type: :string },
+            status: { type: :string },
+            house_id: { type: :integer },
+            user_id: { type: :integer }
+          },
+          required: %w[start_date end_date status house_id user_id]
+        }
 
         after do |example|
           example.metadata[:response][:content] = {
