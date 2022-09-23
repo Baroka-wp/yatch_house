@@ -21,7 +21,16 @@ An application to book houses for rent like airbnb. The particularity is that th
 ## DIAGRAM UML
 
 ![yatch_house](https://user-images.githubusercontent.com/67879818/190388452-17991efb-e10e-44db-8398-20765877aae1.png)
-<<<<<<< HEAD
 
-=======
->>>>>>> main
+
+## Author
+
+👤 **Author : GEDEON USHINDI**
+
+- GitHub: [@GedeonTS](https://github.com/GedeonTS)
+- Twitter: [@Gedeon191](https://twitter.com/Gedeon191)
+- LinkedIn: [Ushindi Gedeon](https://linkedin.com/in/ushindi-gedeon)
+
+
+
+## Contributing
