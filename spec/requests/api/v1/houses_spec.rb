@@ -20,6 +20,18 @@ RSpec.describe 'api/v1/houses', type: :request do
 
     post('create house') do
       response(200, 'successful') do
+        consumes 'application/json'
+        parameter name: :house, in: :body, schema: {
+          type: :object,
+          properties: {
+            name: { type: :string },
+            location: { type: :string },
+            price: { type: :integer },
+            description: { type: :string },
+            image: { type: :string }
+          },
+          required: %w[name location price description image]
+        }
 
         after do |example|
           example.metadata[:response][:content] = {
