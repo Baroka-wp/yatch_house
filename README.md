@@ -1,4 +1,5 @@
 # Yatch House API
+
 An application to book houses for rent like airbnb. The particularity is that the guests will live with their host to discover the local culture and customs. The user will be able to choose a house according to his preferences and book a period during which he will live with his guest.
 
 ## Built With
@@ -85,7 +86,6 @@ rspec spec
 
 - Run your rails server rails s and go to the URL and add `/api-docs` and behold the Swagger UI documentation of all endpoints for the controllers.
 
-
 ## Front end github repo link
 
 [front-end repo](https://github.com/Baroka-wp/yatch-house-front-end)
@@ -97,7 +97,7 @@ rspec spec
 - Add and delete house
 - Add reservation
 - List of user reservations
-- List of all house 
+- List of all house
 - Check house is availableor not
 
 ## Diagram UML
@@ -142,3 +142,6 @@ Give a ⭐️ if you like this project!
 
 - Inspiration: Microverse
 
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
