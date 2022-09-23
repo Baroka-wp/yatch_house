@@ -31,6 +31,13 @@ An application to book houses for rent like airbnb. The particularity is that th
 - Twitter: [@Gedeon191](https://twitter.com/Gedeon191)
 - LinkedIn: [Ushindi Gedeon](https://linkedin.com/in/ushindi-gedeon)
 
+👤 **Author : YASIN WARSAME**
+
+- GitHub: [@Yazino12](https://github.com/Yazino12)
+- Twitter: [@yasino24](https://twitter.com/Gedeon191)
+- LinkedIn: [yasin-warsame](https://linkedin.com/in/yasin-warsame-a4176217a)
+
+
 
 
 ## Contributing
