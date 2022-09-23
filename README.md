@@ -104,7 +104,7 @@ rspec spec
 
 ![yatch_house](https://user-images.githubusercontent.com/67879818/190388452-17991efb-e10e-44db-8398-20765877aae1.png)
 
-## Author
+## Authors
 
 👤 **Author : GEDEON USHINDI**
 
@@ -129,31 +129,9 @@ rspec spec
 
 - Gmail: [![Gmail Badge](https://img.shields.io/badge/-baroka--Irotori-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:birotori@gmail.com)
 
-## Contributing
-=======
 ## API endpoints
 
 ![image](https://user-images.githubusercontent.com/43172164/191965611-ca7fa9d7-23ca-43bd-92d9-f06363b3f032.png)
-
-## Authors
-
-👤 **Yasin Warsame**
-
-- GitHub: [@Yazino12](https://github.com/Yazino12)
-- Twitter: [@yasino24](https://twitter.com/yasino24)
-- LinkedIn: [yasin-warsame](https://linkedin.com/in/yasin-warsame-a4176217a)
-
-👤 **Gedion**
-
-- GitHub: [@GedeonTS]()
-- Twitter: []()
-- LinkedIn: []()
-
-👤 **Baroka**
-
-- GitHub: [@Baroka-wp]()
-- Twitter: []()
-- LinkedIn: []()
 
 ## 🤝 Contributing
 
