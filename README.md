@@ -104,6 +104,10 @@ rspec spec
 
 ![yatch_house](https://user-images.githubusercontent.com/67879818/190388452-17991efb-e10e-44db-8398-20765877aae1.png)
 
+## API endpoints
+
+![image](https://user-images.githubusercontent.com/43172164/191965611-ca7fa9d7-23ca-43bd-92d9-f06363b3f032.png)
+
 ## Authors
 
 👤 **Author : GEDEON USHINDI**
@@ -128,10 +132,6 @@ rspec spec
 - Twitter: [![Twitter Badge](https://img.shields.io/badge/-birotori-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/birotori)
 
 - Gmail: [![Gmail Badge](https://img.shields.io/badge/-baroka--Irotori-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:birotori@gmail.com)
-
-## API endpoints
-
-![image](https://user-images.githubusercontent.com/43172164/191965611-ca7fa9d7-23ca-43bd-92d9-f06363b3f032.png)
 
 ## 🤝 Contributing
 
