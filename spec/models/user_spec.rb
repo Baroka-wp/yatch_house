@@ -10,4 +10,11 @@ RSpec.describe User, type: :model do
       expect(subject).to_not be_valid
     end
   end
+
+  context 'associations' do
+    it 'has many reservation' do
+      assc = described_class.reflect_on_association(:reservations)
+      expect(assc.macro).to eq :has_many
+    end
+  end
 end

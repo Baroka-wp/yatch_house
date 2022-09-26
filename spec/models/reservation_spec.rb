@@ -25,5 +25,16 @@ RSpec.describe Reservation, type: :model do
       subject.status = nil
       expect(subject).to_not be_valid
     end
+
+    describe 'Associations' do
+      it 'has many house' do
+        assc = described_class.reflect_on_association(:house)
+        expect(assc.macro).to eq :belongs_to
+      end
+      it 'has many reservation' do
+        assc = described_class.reflect_on_association(:user)
+        expect(assc.macro).to eq :belongs_to
+      end
+    end
   end
 end
