@@ -14,7 +14,9 @@ gem 'bootsnap', require: false
 gem 'rack-cors'
 
 group :development, :test do
+  gem 'rspec-json_expectations', '~> 1.2'
   gem 'database_cleaner'
+  gem 'capybara'
   gem 'rspec-rails'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 end
