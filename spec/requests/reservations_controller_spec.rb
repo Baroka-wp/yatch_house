@@ -9,7 +9,7 @@ RSpec.describe 'Reservations management', type: :request do
     Reservation.create(id: 1, start_date: '01-02-2022', end_date: '04-09-2022', status: 'enabled', house_id: house.id,
                        user_id: user.id)
     Reservation.create(id: 2, start_date: '11-02-2022', end_date: '14-09-2022', status: 'enabled', house_id: house.id,
-                        user_id: user.id)
+                       user_id: user.id)
   end
 
   it 'check actions for houses' do
