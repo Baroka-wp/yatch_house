@@ -32,6 +32,5 @@ RSpec.describe House, type: :model do
       assc = described_class.reflect_on_association(:reservations)
       expect(assc.macro).to eq :has_many
     end
-    
   end
 end

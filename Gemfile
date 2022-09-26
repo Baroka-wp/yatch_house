@@ -3,22 +3,22 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
 
-gem 'rails', '~> 7.0.4'
-gem 'pg', '~> 1.1'
-gem 'cancan'
-gem 'rubocop', '>= 1.0', '< 2.0'
-gem 'puma', '~> 5.0'
 gem 'bcrypt', '~> 3.1.7'
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'bootsnap', require: false
+gem 'cancan'
+gem 'pg', '~> 1.1'
+gem 'puma', '~> 5.0'
 gem 'rack-cors'
+gem 'rails', '~> 7.0.4'
+gem 'rubocop', '>= 1.0', '< 2.0'
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
-  gem 'rspec-json_expectations', '~> 1.2'
-  gem 'database_cleaner'
   gem 'capybara'
-  gem 'rspec-rails'
+  gem 'database_cleaner'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'rspec-json_expectations', '~> 1.2'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -27,9 +27,9 @@ group :development do
 end
 
 gem 'active_model_serializers', '~> 0.10.13'
+gem 'carrierwave'
+gem 'cloudinary'
 gem 'devise'
 gem 'devise-jwt'
 gem 'dotenv-rails', groups: %i[development test]
-gem 'carrierwave'
-gem 'cloudinary'
 gem 'rswag'
