@@ -5,3 +5,8 @@ require_relative "config/application"
 require "rake"
 
 Rails.application.load_tasks
+Rake::Task["test"].clear
+
+task 'test' do
+    Rake::Task["spec"].invoke
+end
