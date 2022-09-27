@@ -26,12 +26,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- A text editor(preferably Visual Studio Code)
-- Git
-- Ruby 3.1.2
-- Ruby on rails 7.0.3
-- postgresql (last version)
-- Rspec (last version)
+``` Install ```
+    - A text editor(preferably Visual Studio Code)
+    - Git
+    - Ruby 3.1.2
+    - Ruby on rails 7.0.3
+    - postgresql (last version)
+    - Rspec (last version)
 
 ### Install
 
