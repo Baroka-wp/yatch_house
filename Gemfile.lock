@@ -195,6 +195,12 @@ GEM
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.13.8-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.13.8-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.8-x86_64-linux)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.22.1)
     parser (3.1.2.1)
@@ -321,6 +327,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
   x64-unknown
   x86_64-darwin-21
   x86_64-linux
@@ -349,7 +356,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.22
+   2.3.20
