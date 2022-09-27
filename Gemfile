@@ -21,9 +21,8 @@ gem 'dotenv-rails', groups: %i[development test]
 gem 'sprockets'
 gem 'sprockets-rails'
 gem 'activestorage'
-
+gem 'rswag'
 group :development, :test do
-  gem 'rswag'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
