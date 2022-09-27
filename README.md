@@ -16,31 +16,25 @@ An application to book houses for rent like airbnb. The particularity is that th
 
 To get a local copy up and running follow these simple example steps.
 
-  ``` git clone ` git@github.com:Baroka-wp/yatch_house.git ` ```
-  ``` cd yatch_house ```
-  ``` bundle install ```
-  ``` rails db:create ```
-  ``` rails db:migrate ```
-  ``` rails db:seed ```
-  ``` rails s ```
+  ``` 
+      - git clone `git@github.com:Baroka-wp/yatch_house.git` 
+      - cd yatch_house
+      - bundle install
+      - rails db:create
+      - rails db:migrate
+      - rails db:seed
+      - rails s
+  ```
 
 ### Prerequisites
 
-``` Install ```
-    - A text editor(preferably Visual Studio Code)
-    - Git
-    - Ruby 3.1.2
-    - Ruby on rails 7.0.3
-    - postgresql (last version)
-    - Rspec (last version)
-
-### Install
-
-- Git
-- Ruby
-- Ruby on Rails
-- PostgresSQL
-- Rspec
+- Install :- 
+  - A text editor(preferably Visual Studio Code)
+  - Git
+  - Ruby 3.1.2
+  - Ruby on rails 7.0.3
+  - postgresql (last version)
+  - Rspec (last version)
 
 ### Usage
 
@@ -56,15 +50,6 @@ To get a local copy up and running follow these simple example steps.
 
 - Install Rspec with `rails generate rspec:install`
 - Run `rspec spec` to run the tests
-
-## Authors
-
-👤 **Baraka Wanyama**
-👤 **Gedeon **
-👤 **Yasin **
-👤 **Roland **
-
-
 
 ### Check API Endpoints
 
