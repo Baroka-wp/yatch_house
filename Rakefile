@@ -1,12 +1,7 @@
-# Add your own tasks in files placed in lib/tasks ending in .rake,
-# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+    #!/usr/bin/env ruby
+    # frozen_string_literal: true
 
-require_relative "config/application"
-
-Rails.application.load_tasks
-
-begin
-    require 'minitest/autorun'
-rescue LoadError => e
-    raise e unless ENV['RAILS_ENV'] == "production"
-end
+    require_relative '../config/boot'
+    require 'rake'
+    
+    Rake.application.run

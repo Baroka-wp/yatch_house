@@ -192,8 +192,6 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.8-x86_64-linux)
-      racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.22.1)
     parser (3.1.2.1)
@@ -227,6 +225,11 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (7.0.4)
       actionpack (= 7.0.4)
       activesupport (= 7.0.4)
@@ -331,7 +334,6 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
-  x86_64-linux
 
 DEPENDENCIES
   active_model_serializers (~> 0.10.13)
@@ -351,7 +353,8 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.4)
-  rake
+  rails_12factor
+  rake (~> 13.0)
   rspec
   rspec-json_expectations (~> 1.2)
   rspec-rails
@@ -365,4 +368,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.21
+   2.3.7

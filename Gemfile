@@ -7,6 +7,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', require: false
 gem 'cancan'
 gem 'pg', '~> 1.1'
+gem 'rails_12factor', group: :production
 gem 'puma', '~> 5.0'
 gem 'rack-cors'
 gem 'rails', '~> 7.0.4'
@@ -23,7 +24,7 @@ gem 'sprockets-rails'
 gem 'activestorage'
 gem 'rswag'
 gem 'rspec'
-gem 'rake'
+gem "rake", "~> 13.0"
 
 group :development, :test do
   gem 'capybara'
