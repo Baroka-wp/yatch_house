@@ -194,15 +194,12 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
-<<<<<<< HEAD
       racc (~> 1.4)
     nokogiri (1.13.8-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.8-x86_64-linux)
-=======
->>>>>>> 6e21f7c09db09382b6fa1c3e7306f96c228abff5
       racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.22.1)
