@@ -19,6 +19,7 @@ gem 'devise-jwt'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'sprockets'
 gem 'sprockets-rails'
+gem 'activestorage'
 
 group :development, :test do
   gem 'rswag'
