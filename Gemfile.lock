@@ -141,7 +141,7 @@ GEM
       concurrent-ruby (~> 1.0)
     erubi (1.11.0)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw-ucrt)
+    ffi (1.15.5-x64-unknown)
     globalid (1.0.0)
       activesupport (>= 5.0)
     http-accept (1.7.0)
@@ -194,19 +194,21 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
+<<<<<<< HEAD
       racc (~> 1.4)
     nokogiri (1.13.8-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.8-x86_64-linux)
+=======
+>>>>>>> 6e21f7c09db09382b6fa1c3e7306f96c228abff5
       racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
     pg (1.4.3)
-    pg (1.4.3-x64-mingw-ucrt)
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -308,12 +310,9 @@ GEM
     timeout (0.3.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2022.3)
-      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
-    unf_ext (0.0.8.2-x64-mingw-ucrt)
     unicode-display_width (2.3.0)
     warden (1.2.9)
       rack (>= 2.0.9)
@@ -331,7 +330,11 @@ GEM
 
 PLATFORMS
   ruby
+<<<<<<< HEAD
   x64-mingw-ucrt
+=======
+  x64-unknown
+>>>>>>> 6e21f7c09db09382b6fa1c3e7306f96c228abff5
   x86_64-darwin-21
   x86_64-linux
 

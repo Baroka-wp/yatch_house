@@ -1,6 +1,6 @@
 class Api::V1::ReservationsController < ApplicationController
   def index
-    @reservations = Reservation.all
+    @reservations = Reservation.all.order('id desc')
     render json: { data: @reservations }, status: :ok
   end
 
@@ -22,6 +22,6 @@ class Api::V1::ReservationsController < ApplicationController
   end
 
   def reservation_params
-    params.require(:reservation).permit(:start_date, :end_date, :status, :house_id, :user_id)
+    params.require(:reservation).permit(:start_date, :end_date, :status, :house_id, :user_id, :total)
   end
 end
