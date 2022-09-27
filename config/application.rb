@@ -1,8 +1,8 @@
 require_relative "boot"
 
-# require "rails/all"
+require "rails/all"
 require 'sprockets/railtie'
-require "active_storage/engine"
+# require "active_storage/engine"
 
 
 # Require the gems listed in Gemfile, including any gems
