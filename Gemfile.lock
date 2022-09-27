@@ -327,11 +327,8 @@ GEM
 
 PLATFORMS
   ruby
-<<<<<<< HEAD
   x64-mingw-ucrt
-=======
   x64-unknown
->>>>>>> 6e21f7c09db09382b6fa1c3e7306f96c228abff5
   x86_64-darwin-21
   x86_64-linux
 
