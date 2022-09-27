@@ -7,80 +7,63 @@ An application to book houses for rent like airbnb. The particularity is that th
 - Ruby 3.1.2
 - Ruby on rails 7.0.3
 - postgresql (last version)
+- Rspec (last version)
+- Rubocop (last version)
+- Devise (last version)
+- cloudinary (last version)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
+  ``` git clone ` git@github.com:Baroka-wp/yatch_house.git ` ```
+  ``` cd yatch_house ```
+  ``` bundle install ```
+  ``` rails db:create ```
+  ``` rails db:migrate ```
+  ``` rails db:seed ```
+  ``` rails s ```
+
 ### Prerequisites
 
 - A text editor(preferably Visual Studio Code)
+- Git
+- Ruby 3.1.2
+- Ruby on rails 7.0.3
+- postgresql (last version)
+- Rspec (last version)
 
 ### Install
 
+- Git
 - Ruby
 - Ruby on Rails
 - PostgresSQL
 - Rspec
 
-### Using it Locally
-
-- Clone the repository using the below commands.
-
-- `https://github.com/Baroka-wp/yatch_house.git `
-- `cd yatch_house`
-- `rails s`
-
-### Setup
-
-Install gems with:
-
-```
-bundle install
-```
-
-Setup database with:
-
-```
-rails db:create
-rails db:migrate
-```
-
 ### Usage
 
-Start server with:
-
-```
-rails server
-```
-
-Visit http://localhost:3001/ in your browser.
+- Clone the repository to your local machine
+- Run `bundle install` to install the necessary gems
+- Run `rails db:create` to create the database
+- Run `rails db:migrate` to migrate the database
+- Run `rails db:seed` to seed the database
+- Run `rails s` to start the server
+- Open `http://localhost:3001/` in your browser
 
 ### Run tests
 
-Install npm with:
+- Install Rspec with `rails generate rspec:install`
+- Run `rspec spec` to run the tests
 
-```
-npm i
-```
+## Authors
 
-Install rspec with:
+👤 **Baraka Wanyama**
+👤 **Gedeon **
+👤 **Yasin **
+👤 **Roland **
 
-```
-bundle install
-```
 
-and
-
-```
-rails generate rspec:install
-```
-
-run the test with:
-
-```
-rspec spec
-```
 
 ### Check API Endpoints
 
@@ -122,7 +105,6 @@ rspec spec
 - Twitter: [@yasino24](https://twitter.com/Gedeon191)
 - LinkedIn: [yasin-warsame](https://linkedin.com/in/yasin-warsame-a4176217a)
 
-
 👤 **Author : IROTORI BAROKA**
 
 - LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-baroka-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://linkedin.com/in/baroka)
@@ -132,6 +114,22 @@ rspec spec
 - Twitter: [![Twitter Badge](https://img.shields.io/badge/-birotori-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/birotori)
 
 - Gmail: [![Gmail Badge](https://img.shields.io/badge/-baroka--Irotori-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:birotori@gmail.com)
+
+👤 **Joy Kwamboka** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-kwambiee-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/joy-kwamboka)
+
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-kwambiee-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/kwambiee)
+
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-kwambiee-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/kwambiee)
+
+👤 **Roland Ossisa Yuma**
+
+>- GitHub: [@rolandfbk](https://github.com/rolandfbk)
+>- LinkedIn: [Roland Ossisa Yuma](https://linkedin.com/in/roland-ossisa-yuma)
+>- Twitter: [@rolandfbk](https://twitter.com/rolandfbk)
+
+
 
 ## 🤝 Contributing
 
@@ -146,6 +144,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Inspiration: Microverse
+- The [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 📝 License
 
