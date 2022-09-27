@@ -22,6 +22,9 @@ gem 'sprockets'
 gem 'sprockets-rails'
 gem 'activestorage'
 gem 'rswag'
+gem 'rspec'
+gem 'rake'
+
 group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
