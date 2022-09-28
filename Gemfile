@@ -21,9 +21,7 @@ gem 'dotenv-rails', groups: %i[development test]
 gem 'sprockets'
 gem 'sprockets-rails'
 gem 'activestorage'
-gem 'rswag'
-gem 'rspec'
-gem 'rake'
+
 
 group :development, :test do
   gem 'capybara'
@@ -38,4 +36,10 @@ group :development do
   # gem "spring"
 end
 
-
+gem 'active_model_serializers', '~> 0.10.13'
+gem 'carrierwave'
+gem 'cloudinary'
+gem 'devise'
+gem 'devise-jwt'
+gem 'dotenv-rails', groups: %i[development test]
+gem 'rswag'
