@@ -2,11 +2,11 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require_relative "config/application"
+require "rake"
 
 Rails.application.load_tasks
+Rake::Task["test"].clear
 
-begin
-    require 'minitest/autorun'
-rescue LoadError => e
-    raise e unless ENV['RAILS_ENV'] == "production"
+task 'test' do
+    Rake::Task["spec"].invoke
 end
