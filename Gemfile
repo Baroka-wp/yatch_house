@@ -3,28 +3,28 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
 
+gem 'active_model_serializers', '~> 0.10.13'
+gem 'activestorage'
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', require: false
 gem 'cancan'
-gem 'pg', '~> 1.1'
-gem 'rails_12factor', group: :production
-gem 'puma', '~> 5.0'
-gem 'rack-cors'
-gem 'rails', '~> 7.0.4'
-gem 'rubocop', '>= 1.0', '< 2.0'
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'active_model_serializers', '~> 0.10.13'
 gem 'carrierwave'
 gem 'cloudinary'
 gem 'devise'
 gem 'devise-jwt'
 gem 'dotenv-rails', groups: %i[development test]
+gem 'pg', '~> 1.1'
+gem 'puma', '~> 5.0'
+gem 'rack-cors'
+gem 'rails', '~> 7.0.4'
+gem 'rails_12factor', group: :production
+gem 'rake', '~> 13.0'
+gem 'rspec'
+gem 'rswag'
+gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'sprockets'
 gem 'sprockets-rails'
-gem 'activestorage'
-gem 'rswag'
-gem 'rspec'
-gem "rake", "~> 13.0"
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 
 group :development, :test do
@@ -39,11 +39,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
-gem 'active_model_serializers', '~> 0.10.13'
-gem 'carrierwave'
-gem 'cloudinary'
-gem 'devise'
-gem 'devise-jwt'
-gem 'dotenv-rails', groups: %i[development test]
-gem 'rswag'
