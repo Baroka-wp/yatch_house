@@ -26,7 +26,6 @@ gem 'sprockets'
 gem 'sprockets-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-
 group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
