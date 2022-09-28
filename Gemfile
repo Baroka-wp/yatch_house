@@ -13,6 +13,7 @@ gem 'rack-cors'
 gem 'rails', '~> 7.0.4'
 gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+<<<<<<< HEAD
 gem 'active_model_serializers', '~> 0.10.13'
 gem 'carrierwave'
 gem 'cloudinary'
@@ -25,6 +26,8 @@ gem 'activestorage'
 gem 'rswag'
 gem 'rspec'
 gem "rake", "~> 13.0"
+=======
+>>>>>>> parent of 01ee83a (Remove rake core)
 
 group :development, :test do
   gem 'capybara'
@@ -39,4 +42,10 @@ group :development do
   # gem "spring"
 end
 
-
+gem 'active_model_serializers', '~> 0.10.13'
+gem 'carrierwave'
+gem 'cloudinary'
+gem 'devise'
+gem 'devise-jwt'
+gem 'dotenv-rails', groups: %i[development test]
+gem 'rswag'
