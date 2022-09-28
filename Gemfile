@@ -26,6 +26,7 @@ gem 'rswag'
 gem 'rspec'
 gem "rake", "~> 13.0"
 
+
 group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
