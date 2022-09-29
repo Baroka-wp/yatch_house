@@ -14,7 +14,7 @@
 
 ## Kanban Board
 - [Link to the Kanban Board](https://github.com/Baroka-wp/yatch_house/projects/1)
-- ![Kanbanboard Screenshot](https://user-images.githubusercontent.com/43172164/190398556-51c3c69b-178a-461b-b1f3-1d5d9e526ffd.png)
+- ![Kanban Board](https://user-images.githubusercontent.com/43172164/192988224-bd249c3b-020b-46b6-8291-6001878119f8.png)
 - Number of team members in the project are 5, and they include;
   - @Yazino12
   - @rolandfbk
