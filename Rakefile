@@ -2,5 +2,11 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require_relative "config/application"
+require "rake"
 
 Rails.application.load_tasks
+Rake::Task["test"].clear
+
+task 'test' do
+    Rake::Task["spec"].invoke
+end
