@@ -12,12 +12,22 @@
 - Devise (last version)
 - cloudinary (last version)
 
+## Kanban Board
+- [Link to the Kanban Board](https://github.com/Baroka-wp/yatch_house/projects/1)
+- ![Kanbanboard Screenshot](https://user-images.githubusercontent.com/43172164/190398556-51c3c69b-178a-461b-b1f3-1d5d9e526ffd.png)
+- Number of team members in the project are 5, and they include;
+  - @Yazino12
+  - @rolandfbk
+  - @kwambiee
+  - @Baroka-wp
+  - @GedeonTS
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-  ``` 
-      - git clone `git@github.com:Baroka-wp/yatch_house.git` 
+  ```
+      - git clone `git@github.com:Baroka-wp/yatch_house.git`
       - cd yatch_house
       - bundle install
       - rails db:create
@@ -28,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Install :- 
+- Install :-
   - A text editor(preferably Visual Studio Code)
   - Git
   - Ruby 3.1.2
