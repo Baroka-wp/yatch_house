@@ -1,6 +1,6 @@
 class Api::V1::HousesController < ApplicationController
   def index
-    @houses = House.all
+    @houses = House.all.order('id desc')
     render json: @houses
   end
 
